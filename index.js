@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const product = require("./api/product");
-const product = require("./pages/home");
+const home = require("./pages/home");
 
 app.use(express.json({ extended: false }));
 
